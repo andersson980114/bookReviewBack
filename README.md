@@ -49,7 +49,7 @@ Posteriormente se requiere clonar el repositorio
 
 ```bash
 # Clone
-$ git clone https://github.com/andersson980114/edutext.git
+$ git clone https://github.com/andersson980114/bookReviewBack.git
 ```
 
 Una vez clonado es necesario ubicarnos desde la terminal en la carpeta raiz del proyecto y ejecutar la siguiente linea para instalar las dependencias.
