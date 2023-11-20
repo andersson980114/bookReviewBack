@@ -17,16 +17,12 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(morgan('dev'));
- 
-// Configuración de CORS para permitir acceso desde tu frontend de React
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:3001'];
+
+
 const corsOptions = {
   origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
+     
+    callback(null, true);
   },
 };
 
